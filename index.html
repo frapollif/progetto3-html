@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animali</title>
     <link href="styles.css" rel="stylesheet">
-    
+    <script src="main.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Welcome</h1>
@@ -21,43 +23,30 @@
     </nav>
 
     <main>
-        <article>
-            <section class="animal-card-text">
-                <h1> Nome animale</h1>
-                <small>
-                    <span>2 years old </span> - <span>cat</span>
-                </small>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo adipisci est, necessitatibus doloremque dolorum voluptas eum earum maxime, dignissimos beatae deserunt facilis, aspernatur fuga accusantium! Facere, excepturi asperiores? Impedit, consectetur.
-                </p>
-                <a href="http://www.google.com" target="_blank" class="adopt-button">Adopt me</a>
-            </section>
-            <section class="animal-card-photo">
-                <img src="static/dog2.webp">
-            </section>
 
+        <template id="animal-card-template">
+            <article>
+                <section class="animal-card-text">
+                    <h1> Nome animale</h1>
+                    <small>
+                        <span>2 years old </span> - <span>cat</span>
+                    </small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo adipisci est, necessitatibus
+                        doloremque dolorum voluptas eum earum maxime, dignissimos beatae deserunt facilis, aspernatur
+                        fuga accusantium! Facere, excepturi asperiores? Impedit, consectetur.
+                    </p>
+                    <a href="http://www.google.com" target="_blank" class="adopt-button">Adopt me</a>
+                </section>
+                <section class="animal-card-photo">
+                    <img src="static/dog2.webp">
+                </section>
+            </article>
+        </template>
 
-        </article>
-
-        <article>
-            <section class="animal-card-text">
-                <h1> Nome animale</h1>
-                <small>
-                    <span>2 years old </span> - <span>cat</span>
-                </small>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo adipisci est, 
-                </p>
-                <a href="http://www.google.com" target="_blank" class="adopt-button">Adopt me</a>
-            </section>
-            <section class="animal-card-photo">
-                <img src="static/dog2.webp">
-            </section>
-
-
-        </article>
 
     </main>
 
 </body>
+
 </html>
