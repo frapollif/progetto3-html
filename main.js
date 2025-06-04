@@ -21,6 +21,9 @@ async function displayPets(){
         const clone = template.content.cloneNode(true)
 
         // qui modifichiamo il template
+        // Nome animale
+        const name = clone.querySelector('.animal-name')
+        name.textContent=pet.name;
 
         // aggiorniamo la foto
         const image = clone.querySelector('.animal-card-photo img')

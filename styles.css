@@ -86,6 +86,14 @@ main article {
 
 }
 
+.animal-card-text h1{
+    font-weight: normal;
+    padding: 0;
+    margin: .8rem 0;
+    line-height: 1.5;
+
+}
+
 .animal-card-photo {
     min-width : 200px;
     flex-basis: 200px;
@@ -103,6 +111,23 @@ main article {
 
 main article:hover img {
     transform: rotate(10deg) scale(1.4);
+}
+
+.adopt-button {
+    background-color: #911693;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.adopt-button:hover {
+    background: linear-gradient(to left,#911693,#ed74e3);
+
+color: #FFFFFF;
 }
 
 
