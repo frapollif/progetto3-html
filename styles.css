@@ -94,6 +94,11 @@ main article {
 
 }
 
+.animal-card-text small {
+    color: #9c9a9c;
+    font-size: 0.8rem;
+}
+
 .animal-card-photo {
     min-width : 200px;
     flex-basis: 200px;
